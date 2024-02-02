@@ -4,17 +4,21 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane id="AnchorPane" prefHeight="324.0" prefWidth="404.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controlador.EjemploControlador">
+<AnchorPane id="AnchorPane" prefHeight="389.0" prefWidth="404.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controlador.EjemploControlador">
     <children>
-        <Button fx:id="btnSumar" layoutX="115.0" layoutY="184.0" mnemonicParsing="false" onAction="#sumar" prefHeight="25.0" prefWidth="179.0" text="Sumar">
+        <Button fx:id="btnSumar" layoutX="115.0" layoutY="184.0" mnemonicParsing="false" onAction="#operacion" prefHeight="25.0" prefWidth="179.0" text="Operaciones">
             
         </Button>
       <Label layoutX="35.0" layoutY="77.0" text="Valor 1:" />
       <TextField fx:id="txtValor1" layoutX="115.0" layoutY="72.0" />
       <Label layoutX="35.0" layoutY="139.0" text="Valor 2:" />
       <TextField fx:id="txtValor2" layoutX="115.0" layoutY="134.0" />
-      <Label layoutX="35.0" layoutY="248.0" text="Resultado:" />
+      <Label layoutX="35.0" layoutY="326.0" text="Resultado:" />
       <Label layoutX="168.0" layoutY="248.0" />
-      <TextField fx:id="txtResultado" editable="false" layoutX="130.0" layoutY="243.0" prefHeight="31.0" prefWidth="172.0" />
+      <TextField fx:id="txtResultado" editable="false" layoutX="123.0" layoutY="321.0" prefHeight="31.0" prefWidth="172.0" />
+      <RadioButton fx:id="rbSuma" layoutX="115.0" layoutY="238.0" mnemonicParsing="false" text="Suma" />
+      <RadioButton fx:id="rbResta" layoutX="113.0" layoutY="269.0" mnemonicParsing="false" text="Resta" />
+      <RadioButton fx:id="rbMulti" layoutX="209.0" layoutY="238.0" mnemonicParsing="false" text="Multiplicación" />
+      <RadioButton fx:id="rbDivision" layoutX="209.0" layoutY="269.0" mnemonicParsing="false" text="División" />
     </children>
 </AnchorPane>
