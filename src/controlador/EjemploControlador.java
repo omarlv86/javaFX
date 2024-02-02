@@ -59,7 +59,7 @@ public class EjemploControlador implements Initializable {
             alert.setHeaderText(null);
             alert.setTitle("Error");
             alert.setContentText("Formato incorrecto");
-            alert.showAndWait();
+            alert.showAndWait(); 
         }  
     }
     
